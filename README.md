@@ -1,4 +1,4 @@
-# protege-plugin-examples
+# protege-plugin-for-metrics
 
 This repository contains example code for developing a tab, view, or menu plug-in for the Protege Desktop ontology editor (*versions 5.0.0 and higher*).  The Maven POM file in the top-level directory demonstrates one possible method for packaging plug-in code into the required OSGi bundle format using the [Maven Bundle Plugin](http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html).
 
@@ -14,9 +14,9 @@ To build and run the examples, you must have the following items installed:
 
 1. Get a copy of the example code:
 
-        git clone https://github.com/protegeproject/protege-plugin-examples.git protege-plugin-examples
+        git clone https://github.com/averianova/protege-plugin-examples.git
     
-2. Change into the protege-plugin-examples directory.
+2. Change into the protege-plugin-for-metrics directory.
 
 3. Type mvn clean package.  On build completion, the "target" directory will contain a protege.plugin.examples-${version}.jar file.
 
